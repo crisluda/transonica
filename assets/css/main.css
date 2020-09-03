@@ -242,6 +242,10 @@ input, select, textarea {
 		color: #ff4f0a;
 	}
 
+	.ceo {
+		margin: 0 auto;
+	}
+
 		@media screen and (min-width: 1024px) {
 
 			#nav {
@@ -283,7 +287,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			.ceo { margin: 0 -26px; }
 			.container {
 				width: 100%;
 			}
