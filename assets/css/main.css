@@ -242,7 +242,7 @@ input, select, textarea {
 		color: #ff4f0a;
 	}
 
-		@media screen and (min-width: 1440px) {
+		@media screen and (min-width: 1024px) {
 
 			#nav {
 				margin-top: 70px;
@@ -2149,7 +2149,7 @@ input, select, textarea {
 		z-index: 1;
 		top: 0;
 		left: 50%;
-		width: 15em;
+		width: 17em;
 		margin-left: -7.5em;
 	}
 
