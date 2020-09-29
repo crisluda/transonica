@@ -1,0 +1,21 @@
+.service-img {
+  height: 300px;
+}
+
+.news-img {
+  height: 400px;
+}
+
+.more {
+  background-color: #fff;
+  height: 60px;
+}
+
+#footer-wrapper {
+  padding: 2em 0;
+}
+
+#copyright {
+  margin-top: 0;
+  padding-top: 2em;
+}
