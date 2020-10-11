@@ -11,6 +11,22 @@
   height: 60px;
 }
 
+.media {
+  height: 150px;
+}
+
+.supermarket {
+  height: 150px;
+}
+
+.shop {
+  height: 140px;
+}
+
+.image.featured {
+  margin: 0 0 2em 0;
+}
+
 #footer-wrapper {
   padding: 2em 0;
 }
@@ -18,4 +34,20 @@
 #copyright {
   margin-top: 0;
   padding-top: 2em;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .media {
+    height: 250px;
+  }
+  .image.featured {
+    margin: 2em 0;
+  }
+  .shop,
+  .supermarket {
+    height: 240px;
+  }
+  .service-img {
+    height: 380px;
+  }
 }
